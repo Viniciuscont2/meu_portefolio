@@ -1,7 +1,7 @@
 # Importação das bibliotecas necessárias
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
 import numpy as np
@@ -296,5 +296,6 @@ if "Salary_USD" in df.columns and "Company_Size" in df.columns:
         st.pyplot(fig)
 else:
     st.warning("Colunas 'Salary_USD' ou 'Company_Size' não encontradas.")
+
 
 
