@@ -6,4 +6,5 @@ plotly
 openpyxl
 streamlit-extras
 seaborn
-matplotlib.pyplot
+matplotlib
+pyplot
